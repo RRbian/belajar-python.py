@@ -1,0 +1,18 @@
+#latihan list, dictionary dan loop Lanjutan
+namaTeman = ["ricky","agus","yopi","yuma","jelsi"]
+
+for nama in namaTeman:
+    print(nama)
+    
+#latihan dictionary
+dataTeman = {
+    "nama": "jelsi",
+    "umur": 20,
+    "is_student": True
+}
+
+print(dataTeman["nama"])
+
+dataTeman["Kota"] = "Delang"
+for key, value in dataTeman.items():
+    print(f"{key}:{value}")
